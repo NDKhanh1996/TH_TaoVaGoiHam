@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+
+let ans = confirm('Shall we play a game?')
+
+function quest(ans) {
+  if (ans === true){
+    alert('Great, let play')
+  }else {
+    alert('Maybe later then')
+  }
+}
+window.onload = function() {quest(ans)}
+</script>
+</body>
+</html>
